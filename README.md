@@ -11,4 +11,7 @@ Steps
       sudo docker-compose -f docker-compose.yml up -d #start RackHD dockers
       cd ../infrasim
       sudo docker-compose up -d  #start infrasim dockers
+      
+      # Get node BMC ip
+      sudo docker-compose logs | grep 'Either host IP'
 ```
